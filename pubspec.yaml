@@ -25,13 +25,19 @@ dependencies:
     sdk: flutter
 
 
+  audio_service: 0.16.0
+
   firebase_core: ^0.5.3
   firebase_storage: ^5.2.0
   # firebase_storage:
   #    path: /Users/pschuegr/dev/flutterfire/packages/firebase_storage/firebase_storage
   #cloud_firestore:
   #  path: /Users/pschuegr/dev/flutterfire/packages/cloud_firestore/cloud_firestore
-  cloud_firestore: ^0.14.4
+  cloud_firestore:  ^0.14.4
+  # cloud_firestore: # ^0.14.4
+  #   git:
+  #     url: https://github.com/pschuegr/flutterfire.git
+  #     path: packages/cloud_firestore/cloud_firestore
   #cloud_firestore_web: ^0.2.0
   firebase_auth: ^0.18.0
 
